@@ -11,3 +11,7 @@ ft_hangouts is an app to manage your contacts.
 [![macos](https://github.com/harou24/ft_hangouts/workflows/MacOs/badge.svg)](https://github.com/harou24/ft_hangouts/actions?workflow=MacOS)
 [![ubuntu](https://github.com/harou24/ft_hangouts/workflows/ubuntu/badge.svg)](https://github.com/harou24/ft_hangouts/actions?workflow=ubuntu)
 [![ubuntu](https://github.com/harou24/ft_hangouts/workflows/windows/badge.svg)](https://github.com/harou24/ft_hangouts/actions?workflow=windows)
+
+# Sources
+
+http://www.cs.trincoll.edu/hfoss/wiki/Tutorial:Making_a_Contacts_Application
