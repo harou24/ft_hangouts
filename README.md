@@ -15,3 +15,4 @@ ft_hangouts is an app to manage your contacts.
 # Sources
 
 http://www.cs.trincoll.edu/hfoss/wiki/Tutorial:Making_a_Contacts_Application
+https://www.youtube.com/watch?v=dGFZ9sVIKuo
