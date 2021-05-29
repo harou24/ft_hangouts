@@ -19,3 +19,6 @@ http://www.cs.trincoll.edu/hfoss/wiki/Tutorial:Making_a_Contacts_Application
 https://www.youtube.com/watch?v=dGFZ9sVIKuo
 
 https://www.tutorialspoint.com/android/android_sqlite_database.htm
+
+
+https://developer.android.com/training/data-storage/sqlite#java
