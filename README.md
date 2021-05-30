@@ -21,3 +21,5 @@ https://www.tutorialspoint.com/android/android_sqlite_database.htm
 https://developer.android.com/training/data-storage/sqlite#java
 
 https://www.javatpoint.com/android-sqlite-tutorial
+
+https://www.tutorialspoint.com/android/android_list_view.htm
