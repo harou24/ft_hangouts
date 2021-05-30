@@ -1,3 +1,5 @@
+package com.example.ft_hangouts;
+
 public class Contact {
     private int id;
     private String first_name;
@@ -7,7 +9,14 @@ public class Contact {
     private String phone_number;
     private int age;
 
-    public Contact(){}
+    public Contact(){
+        this.id = 0;
+        this.first_name = "first_name";
+        this.last_name = "last_name";
+        this.nickname = "nickname";
+        this.phone_number = "phone_number";
+        this.age = 0;
+    }
     public Contact(int i, String string, String cursorString, String s, String string1, String cursorString1, int parseInt)
     {
         this.id = 0;
