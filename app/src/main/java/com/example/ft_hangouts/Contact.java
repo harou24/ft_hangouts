@@ -35,6 +35,15 @@ public class Contact {
         this.phone_number = phone_number;
         this.age = age;
     }
+    public Contact(String first_name, String last_name, String nickname, String phone_number, int age)
+    {
+        this.id = id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.nickname = nickname;
+        this.phone_number = phone_number;
+        this.age = age;
+    }
 
     public int getId() {
         return id;

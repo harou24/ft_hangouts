@@ -1,5 +1,4 @@
 package com.example.ft_hangouts;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -73,6 +72,14 @@ public class DataBase extends SQLiteOpenHelper {
         }
     }
 
+    public void remove_all_contacts()
+    {
+        SQLiteDatabase db;
+        db = this.getWritableDatabase();
+        db.execSQL("DELETE FROM "+ TABLE_NAME);
+        db.close();
+    }
+
     public Contact getContact(int id)
     {
         SQLiteDatabase db = getReadableDatabase();
@@ -123,18 +130,18 @@ public class DataBase extends SQLiteOpenHelper {
 
     public List<String> getAllNames()
     {
-      List<String> names = new ArrayList<String>();
-      String sqlCommand = "SELECT *  FROM " + TABLE_NAME;
-      SQLiteDatabase db = this.getReadableDatabase();
-      Cursor cursor = db.rawQuery(sqlCommand, null);
-      if (cursor.moveToFirst())
-      {
-          do {
-              String name = cursor.getString(1);
-              names.add(name);
-          }while(cursor.moveToNext());
+        List<String> names = new ArrayList<String>();
+        String sqlCommand = "SELECT *  FROM " + TABLE_NAME;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(sqlCommand, null);
+        if (cursor.moveToFirst())
+        {
+            do {
+                String name = cursor.getString(1);
+                names.add(name);
+            }while(cursor.moveToNext());
 
-      }
-      return (names);
+        }
+        return (names);
     }
 }
